@@ -1,0 +1,93 @@
+<html>	
+<body>
+
+<style type="text/css">
+			  body {
+			   background-image : url(images/back.png);
+			position:fixed;
+			   background-position: fixed;
+			   
+			 }
+			 	h1 {text-align:center;
+					color:#FF4566;
+					font-family:slant;
+					text-indent: 20px;
+					font-size: 100px;
+					position:static}
+				h3	{	text-align:left;
+							font-style: oblique;}
+					
+					p  {	  text-align:left;
+					text-indent:50px;
+						line-height:150%;
+					color: BLACK; 
+					font-family:comic sans;
+					font-size:50px;
+					
+					} 
+				
+			td{
+			font-family:Tahoma;
+			font-size:18px;
+			
+			}
+				table  {
+						position:fixed;
+						left:580px;
+						top:200px;
+							font-family:comic sans;
+								}
+				img.log	
+						{		
+						position:fixed;
+						left:500px;
+						top:20px;
+						} 
+					img.inf
+					{
+						
+						position:fixed;
+						//left:600px;
+						left:900px;
+						top:100px;
+						
+					
+					}
+				img.header
+					{
+					
+							position:relative;
+							left: 400px;
+							top:10px;
+					
+					}
+				
+</style>
+<head><title>Register now!!!</title></head>
+<a href="index.html">HOME</a>
+<img class="header" src="images/header.png">
+<a href="index.html">HOME</a>
+<form action="hell.php" method="post">
+<table border="0">
+
+<tr>
+	<td> Name </td>
+		<td align="left"><input type="text" name="name" size="10" maxlength="50" />
+		</td> </tr>
+		<tr>
+		<td>Enrollment number</td>
+			<td align="left"><input type="text" name="num" size="10" maxlength="50" />
+		</tr>
+		<tr>
+		<td>Password</td>
+			<td align="left"><input type="password" name="pass" size="10" maxlength="50" />
+		</tr>
+	<td colspan="20" align="right">
+	<input type="submit" value="Confirm Registration"  />
+	</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
